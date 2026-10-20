@@ -1,0 +1,117 @@
+.deation-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #4D533C;
+    width: 800px;
+    margin: auto 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.deation {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d533d;
+}
+
+.deation-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    margin-bottom: 100px;
+}
+
+.deation-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.deation-grid-item-title {
+    margin: 0 0 16px;
+    max-width: 160px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: #4d533d;
+}
+
+.deation-grid-item-description {
+    margin: 0 0 35px;
+    max-width: 180px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #87919a;
+}
+
+.deation-grid-item-link {
+    margin-top: auto;
+    font-size: 11px;
+    font-weight: 700;
+    color: #d4d6d4;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.deation-grid-item-link:hover {
+    color: #ffd723;
+}
+
+.deation-grid-item-link::before {
+    content: "›";
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.section-footer-title {
+    max-width: 600px;
+    margin: 0 0 25px;
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #4d533d;
+}
+
+.deation-grid-item-link2 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffd723;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section-footer {
+    position: absolute;
+    top: -107px;
+    left: 0;
+    transform: none;
+    width: 770px;
+    min-height: 226px;
+    padding: 40px 100px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.section-footer-title {
+    max-width: 600px;
+    margin: 0 0 25px;
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #4d533d;
+}
+
+.deation-grid-item-link2 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffd723;
+    text-decoration: underline;
+    cursor: pointer;
+}

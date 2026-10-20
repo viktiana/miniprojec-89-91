@@ -1,0 +1,32 @@
+@import "variables";
+
+.container1,.article1,.article2{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: flex-start;
+}
+
+.container1{
+    gap: 10px;
+    margin: 100px 100px;
+    color: #FFFFFF;
+    width:616px;
+    height: 412px;
+    text-align: left;
+}
+
+.article1{
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.article1 p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.article2{
+    align-items: center;
+    justify-content: center;
+}

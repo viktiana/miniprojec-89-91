@@ -1,0 +1,257 @@
+$text-font: "Poppins", sans-serif;
+$title-color: #4D533C;
+$mini-title-color: #21384299;
+$Komment-color: white;
+
+.Project-title {
+    font-family: $text-font;
+    color: $title-color;
+    font-weight: 700;
+    width: 400px;
+    font-size: 32px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.Projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+} 
+
+.Project-mini-title {
+    color: $mini-title-color;
+    font-family: $text-font;
+    width: 420px;
+    font-size: 13px;
+}
+
+.Project-section-img1 {
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+}
+
+.Project-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 60px;
+}
+
+.Project-mini-section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Komment-1 {
+    background-color: $Komment-color;
+    height: 180px;
+    width: 320px;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.2);
+    left: 235px;
+    top: 540px;
+    padding: 17px;
+}
+
+.Project-section-title1 {
+    font-family: $text-font;
+    color: $title-color;
+    font-weight: 700;
+    width: 400px;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.Project-section-text1 {
+    color: $mini-title-color;
+    font-family: $text-font;
+    width: 350px;
+    margin: 0;
+    font-size: 13px;
+}
+
+.Project-section-text2 {
+    color: $mini-title-color;
+    font-family: $text-font;
+    width: 330px;
+    margin: 0;
+    font-size: 13px;
+}
+
+.mini-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 330px;
+    gap: 25px;
+}
+
+.Project-a {
+    color: #D4D6D4;
+    font-family: $text-font;
+    width: 330px;
+    font-weight: 600;
+    margin: 0;
+    font-size: 13px;
+}
+
+.ikon-a {
+    color: #D4D6D4;
+    font-size: 10px;
+    margin-right: 3px;
+}
+
+.link-a {
+    margin-top: 60px;
+}
+
+.Komment-text1 { 
+    font-family: $text-font;
+    color: $title-color;
+    font-size: 12px;
+    width: 300px;
+    font-style: italic;
+}
+
+.Komment-1 img {
+    height: 41px;
+    border-radius: 50px;
+    margin: 0;
+    box-shadow: 7px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Komment-1{
+    margin-top: 1600px;
+    width: 360px;
+}
+
+.Komment-text2 {
+    font-family: $text-font;
+    color: $title-color;
+    font-weight: 700;
+    width: 400px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.Komment-text3 {
+    font-family: $text-font;
+    color: #152934;
+    font-size: 13px;
+    width: 300px;
+    margin: 0;
+}
+
+.Komment-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+.Komment-profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.Project-mini-section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 120px;
+  position: relative;
+}
+
+.Section-2-div-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+
+.Project-section-img2 {
+    height: 400px;
+    display: block;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+}
+
+.Project-section-title2 {
+    font-family: $text-font;
+    color: $title-color;
+    font-weight: 700;
+    width: 350px;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.Komment-2 {
+    background-color: $Komment-color;
+    height: 180px;
+    width: 320px;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    right: 240px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.2);
+    padding: 17px;
+}
+
+.Komment-2 img {
+    height: 41px;
+    border-radius: 50px;
+    margin: 0;
+    box-shadow: 7px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Project-mini-section3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 120px;
+}
+
+.Komment-3 {
+    background-color: $Komment-color;
+    height: 180px;
+    width: 340px;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 2;
+    top: 280px;
+    right: 460px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.2);
+    padding: 17px;
+}
+
+.Komment-3 img {
+    height: 41px;
+    border-radius: 50px;
+    margin: 0;
+    box-shadow: 7px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.Project-section3-text1 {
+    color: $mini-title-color;
+    font-family: $text-font;
+    width: 340px;
+    margin: 0;
+    font-size: 13px;
+}
